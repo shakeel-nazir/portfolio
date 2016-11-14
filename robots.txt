@@ -1,0 +1,3 @@
+Sitemap: https://shakeelnazir.ca/sitemap.xml
+
+User-agent: *
