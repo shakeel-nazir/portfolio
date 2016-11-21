@@ -14,6 +14,11 @@ html {
   background-color: white;
 }
 
+.white2 {
+  color: #5a5a5a;
+  font-size: 10px;
+}
+
 .video-foreground, .video-background iframe {
   position: relative;
   top: -31%;
@@ -107,6 +112,7 @@ html {
 
 .copyright {
   padding-top: 1rem;
+  margin-bottom: -1rem;
 }
 
 .nonecenter{
@@ -143,7 +149,7 @@ html {
 
 .white2{
   color: #5a5a5a;
-  font-size: 1rem;
+  font-size: 17px;
 
 }
 
@@ -188,11 +194,11 @@ input{
   width:90%;
   padding-left: .5rem;
   margin: 0;
+  filter: grayscale(100%);
 }
 
 .soclogo:hover{
-  background-image: url('../shakeelnazir/images/style_1.png/');
-
+  filter: none;
 }
 
 .gg {
@@ -370,8 +376,8 @@ body {
 a {
   text-decoration: none;
   color: #646464;
-  font-size: 20px;
-  font-family: 'Amatic SC', cursive;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
 }
 
 li {
@@ -564,7 +570,7 @@ h3:hover {
 }
 
 p {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Raleway', sans-serif;
   color: #3e3d3d;
   margin-bottom: 1rem;
   font-size: 1.5rem;
@@ -582,7 +588,7 @@ p {
 }
 
 span {
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Raleway', sans-serif;
   font-size: .75rem;
   color: white;
   margin-left: .5rem;
@@ -670,6 +676,11 @@ nav li {
     position: absolute;
     left: -1000px;
   }
+
+  .white2 {
+    color: #5a5a5a;
+    font-size: 10px;
+}
 
   .isometric {
     width: 100%;
@@ -803,6 +814,11 @@ nav li {
   .bottom{
     width: 30%;
   }
+
+  .white2 {
+    color: #5a5a5a;
+    font-size: 10px;
+}
 
   .video-foreground, .video-background iframe {
     position: relative;
@@ -1023,6 +1039,11 @@ nav li {
     margin-bottom: 1rem;
     font-size: 2rem;
   }
+
+  .white2 {
+    color: #5a5a5a;
+    font-size: 17px;
+}
 
   .moodboard {
     width: 100%;
@@ -1290,7 +1311,7 @@ nav li {
   a {
     text-decoration: none;
     color: #646464;
-    font-size: 36px;
-    font-family: 'Amatic SC', cursive;
+    font-size: 23px;
+    font-family: 'Raleway', sans-serif;
   }
 }
