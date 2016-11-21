@@ -70,6 +70,10 @@ html {
   margin-top: -2rem;
 }
 
+.isometric {
+  width: 100%;
+}
+
 .raleway{
   font-family: 'Raleway', sans-serif;
   font-size: 1rem;
@@ -101,6 +105,10 @@ html {
   width: 61%;
 }
 
+.copyright {
+  padding-top: 2rem;
+}
+
 .nonecenter{
   padding-left: 2%;
 }
@@ -112,7 +120,7 @@ html {
 }
 
 .fontwhite{
-  font-size: 25px;
+  font-size: 175%;
   color:white;
 }
 
@@ -134,7 +142,7 @@ html {
 
 
 .white2{
-  color: white;
+  color: #5a5a5a;
   font-size: 1rem;
 
 }
@@ -362,7 +370,7 @@ body {
 a {
   text-decoration: none;
   color: #646464;
-  font-size: 21px;
+  font-size: 20px;
   font-family: 'Amatic SC', cursive;
 }
 
@@ -464,13 +472,14 @@ form {
 }
 
 .list{
-  padding-left: 45%;
+  padding-left: 54%;
+  padding-top: 1%;
 }
 
 .header{
-  background-color:#222222;
-  padding-bottom: 2px;
-  padding-left:30%;
+  background-color: #222222;
+  padding-bottom: -60px;
+  padding-left: 30%;
   z-index: 3;
   position: relative;
 }
@@ -482,7 +491,7 @@ form {
 }
 
 .space {
-margin-bottom: -10%;
+  margin-bottom: -10%;
 
 }
 
@@ -662,6 +671,10 @@ nav li {
     left: -1000px;
   }
 
+  .isometric {
+    width: 100%;
+  }
+
   .video-foreground, .video-background iframe {
     position: relative;
     top: -34%;
@@ -690,6 +703,11 @@ nav li {
     margin-top: -1%;
     margin-bottom: 5%;
     display: inline-block;
+  }
+
+  .list{
+    padding-left: 100%;;
+    padding-top: 1%;
   }
 
   .my-container img{
@@ -788,7 +806,7 @@ nav li {
 
   .video-foreground, .video-background iframe {
     position: relative;
-    top: -34%;
+    top: -24%;
     left: 0;
     width: 100%;
     height: 100%;
@@ -975,12 +993,16 @@ nav li {
   .my-container img {
     position: absolute;
     left: 1%;
-    top: 2%;
-    width: 2rem;
+    top: 11px;
+    width: 6%;
     height: auto;
     z-index: 1;
     border: 1rem;
     margin: .5rem;
+  }
+
+  .isometric {
+    width: 100%;
   }
 
   h2 {
@@ -1006,6 +1028,17 @@ nav li {
     width: 100%;
     padding-left: 30%;
     padding-right: 30%;
+  }
+
+  .list{
+    padding-left: 53%;
+    padding-top: 1%;
+  }
+
+  .isometric {
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   .videoyoutube {
@@ -1113,9 +1146,9 @@ nav li {
 
   .my-container img {
     position: absolute;
-    left: .5%;
-    top: .5%;
-    width: 2rem;
+    left: 2.5%;
+    top: 6.5%;
+    width: 5rem;
     height: auto;
     z-index: 1;
     border: 1rem;
@@ -1201,8 +1234,8 @@ nav li {
   }
 
   .header{
-    padding-bottom: 2px;
-    padding-left:30%;
+    padding-bottom: 2%;
+    padding-left: 30%;
     z-index: 3;
     position: relative;
   }
@@ -1239,10 +1272,14 @@ nav li {
 
   .video-foreground, .video-background iframe {
     position: relative;
+<<<<<<< Updated upstream
     top: -31%;
+=======
+    top: -8%;
+>>>>>>> Stashed changes
     left: 0;
     width: 100%;
-    height: 110%;
+    height: 107%;
     pointer-events: none;
   }
 
@@ -1252,5 +1289,12 @@ nav li {
     padding-left: 30%;
     padding-right: 30%;
     padding-bottom: 2rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #646464;
+    font-size: 36px;
+    font-family: 'Amatic SC', cursive;
   }
 }
