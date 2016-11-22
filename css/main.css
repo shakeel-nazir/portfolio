@@ -151,6 +151,12 @@ container {
   flex-direction: column;
 }
 
+.description {
+  color: white;
+  font-size: 1rem;
+  margin-top:3rem;
+}
+
 .title:hover {
   text-decoration: underline;
   cursor: pointer;
@@ -160,7 +166,8 @@ container {
   margin: 0;
   padding: 0;
   line-height: 0.25em;
-  font-size: 2em;
+  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
 }
 
 .container:hover .title-container {
