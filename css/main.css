@@ -28,6 +28,17 @@ html {
   pointer-events: none;
 }
 
+.menu {
+  display: none;
+  transform: translateX(200px);
+  transition: all 0.2s ease;
+}
+
+.menu.active {
+  display: block;
+  transform: translateX(0);
+}
+
 * { box-sizing: border-box; }
 .video-background {
   background: #000;
@@ -242,8 +253,7 @@ container {
 
 .white2{
   color: #5a5a5a;
-  font-size: 17px;
-
+  font-size: 10px;
 }
 
 video {
@@ -258,7 +268,7 @@ video {
 }
 
 .text {
-  height: 50%;
+  height: 0;
   z-index: 2;
   width: 100%;
   position: absolute;
