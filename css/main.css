@@ -30,7 +30,7 @@ li {
 
 .smallheader {
     position: relative;
-    top: -84%;
+    top: -89%;
     left: 59%;
     width: 530px;
     height: 280px;
@@ -782,8 +782,6 @@ nav li {
 
   .menu.active {
     display: none;
-    transform: translateY(0);
-    height: 11rem;
   }
 
   .video {
@@ -824,7 +822,7 @@ nav li {
 
   .video-foreground, .video-background iframe {
     position: relative;
-    top: -34%;
+    top: -38%;
     left: 0;
     width: 100%;
     height: 100%;
@@ -852,11 +850,6 @@ nav li {
     display: inline-block;
   }
 
-  .list{
-    padding-left: 46%;
-    padding-top: 1%;
-  }
-
   .my-container img{
     position: absolute;
     left: -1000px;
@@ -877,8 +870,8 @@ nav li {
   }
 
   .hamburger {
-    padding: 15px;
-    display: block;
+    padding: 0px;
+    display: none;
     position: relative;
     z-index: 100;
   }
@@ -998,7 +991,7 @@ nav li {
 
   .video-foreground, .video-background iframe {
     position: relative;
-    top: -24%;
+    top: -33%;
     left: 0;
     width: 100%;
     height: 100%;
@@ -1218,7 +1211,8 @@ nav li {
 
   .menu.active {
     display: none;
-}
+  }
+
 
   .video {
     background-image: url("../images/video_pic.jpg");
@@ -1515,9 +1509,9 @@ nav li {
 
   .video-foreground, .video-background iframe {
     position: relative;
-    top: -32%;
-    left: 0;
-    width: 100%;
+    top: -44%;
+    left: -210px;
+    width: 120%;
     height: 120%;
     pointer-events: none;
   }
