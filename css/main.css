@@ -1061,10 +1061,10 @@ nav li {
 
   .smallheader {
     position: relative;
-    top: -31%;
-    left: -1000px;
-    width: 100%;
-    height: 100%;
+    top: -100%;
+    left: 87%;
+    width: 82rem;
+    height: 42rem;
     pointer-events: none;
   }
 
@@ -1073,14 +1073,14 @@ nav li {
     font-size: 10px;
 }
 
-  .video-foreground, .video-background iframe {
-    position: relative;
-    top: -26%;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-  }
+.video-foreground, .video-background iframe {
+  position: relative;
+  top: -140px;
+  left: -1000px;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
 
   .raleway {
     font-family: 'Raleway', sans-serif;
@@ -1612,7 +1612,7 @@ nav li {
   .video-foreground, .video-background iframe {
     position: relative;
     top: -25%;
-    left: -13%;
+    left: -10%;
     width: 120%;
     height: 120%;
     pointer-events: none;
