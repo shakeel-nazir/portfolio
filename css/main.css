@@ -14,6 +14,54 @@ html {
   background-color: white;
 }
 
+
+.block {
+  display: inline-block;
+
+}
+
+.move {
+  margin-left: 5%;
+  margin-bottom: 8rem;
+}
+
+.sub {
+  text-align: left;
+}
+
+.back {
+  margin-left: -7px;
+}
+
+.about {
+  color:black;
+  font-size: 1rem;
+  margin-top: -2rem;
+  text-align: left;
+  margin-bottom: 0rem;
+  line-height: 23px;
+  padding-bottom: .5rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.shakeelnazir {
+  color: black;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  margin-left: -1rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nazir{
+  width: 13rem;
+  border-radius: 50%;
+  float: center;
+  margin-top: .5rem;
+  margin-left: 25%;
+}
+
 .smalllink {
   font-size: 1.5rem;
 }
@@ -61,7 +109,7 @@ li {
 .menu.active {
   display: block;
   transform: translateY(0);
-  height: 11rem;
+  height: 15rem;
   position: absolute;
 }
 
@@ -165,9 +213,10 @@ li {
 .description {
   color: white;
   font-size: 1em;
-  margin-top:3rem;
+  margin-top: 3rem;
   text-align: left;
-  margin-left: 1em;
+  margin-left: .5em;
+  margin-right: .5em;
 }
 
 .title:hover {
@@ -179,7 +228,7 @@ li {
   margin: 0;
   padding: 0;
   line-height: 0.25em;
-  font-size: 1.5em;
+  font-size: 133%;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -584,7 +633,7 @@ form {
 }
 
 .list{
-  padding-left: 54%;
+  padding-left: 43%;
   padding-top: 1%;
 }
 
@@ -785,6 +834,19 @@ nav li {
     left: -1000px;
   }
 
+  .move {
+    margin-left: 10%;
+    margin-bottom: 2rem;
+  }
+
+  .nazir {
+    width: 13rem;
+    border-radius: 50%;
+    float: center;
+    margin-top: .5rem;
+    margin-left: 27%;
+  }
+
   .menu.active {
     display: block;
     transform: translateY(0);
@@ -951,6 +1013,19 @@ nav li {
 
   .bottom{
     width: 30%;
+  }
+
+  .move {
+    margin-left: 25%;
+    margin-bottom: 15%;
+  }
+
+  .nazir {
+    width: 13rem;
+    border-radius: 50%;
+    float: left;
+    margin-left: 35%;
+    margin-top: .5rem;
   }
 
   .video {
@@ -1222,6 +1297,20 @@ nav li {
     font-size: 2rem;
   }
 
+  .move {
+    margin-left: 3%;
+    padding-bottom: 13%;
+  }
+
+  .nazir {
+    width: 13rem;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20%;
+    margin-top: 5rem;
+    padding-right: 1rem;
+  }
+
   .menu.active {
     display: none;
   }
@@ -1279,7 +1368,7 @@ nav li {
   }
 
   .list{
-    padding-left: 53%;
+    padding-left: 39%;
     padding-top: 1%;
   }
 
@@ -1543,4 +1632,10 @@ nav li {
     font-size: 23px;
     font-family: 'Raleway', sans-serif;
   }
+
+
+  .shakeelnazir {
+    font-size: 4rem;
+    margin-top: 5rem;
+    }
 }
