@@ -21,7 +21,13 @@ html {
 }
 
 .move {
-  margin-left: 5%;
+  margin-left: 18%;
+  padding-bottom: 13%;
+  width: 90%;
+}
+
+ {
+  margin-left: 21%;
   margin-bottom: 8rem;
 }
 
@@ -41,7 +47,10 @@ html {
   margin-bottom: 0rem;
   line-height: 23px;
   padding-bottom: .5rem;
+  width: 87%;
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
+  margin-left: -7%;
 }
 
 .shakeelnazir {
@@ -50,7 +59,7 @@ html {
   font-size: 3rem;
   margin-bottom: 2rem;
   text-align: center;
-  margin-left: -1rem;
+  margin-left: -16%;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -397,7 +406,7 @@ input{
 }
 
 .video {
-  background-image: url("../images/video_pic.jpg");
+  background-image: url("../images/.jpg");
   background-position: 50% 50%;
   width:100%;
   background-repeat: no-repeat;
@@ -834,8 +843,8 @@ nav li {
     left: -1000px;
   }
 
-  .move {
-    margin-left: 10%;
+   {
+    margin-left: 23%;
     margin-bottom: 2rem;
   }
 
@@ -850,12 +859,12 @@ nav li {
   .menu.active {
     display: block;
     transform: translateY(0);
-    height: 11rem;
+    height: 14rem;
     position: absolute;
   }
 
   .video {
-    background-image: url("../images/video_pic.jpg");
+    background-image: url("../images/.jpg");
     background-position: 50% 50%;
     width:100%;
     background-repeat: no-repeat;
@@ -998,6 +1007,13 @@ nav li {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
 
+
+    .move {
+      margin-left: 18%;
+      padding-bottom: 13%;
+      width: 90%;
+    }
+
   h2 {
     font-family: 'Permanent Marker', cursive;
     font-weight: 400;
@@ -1017,6 +1033,12 @@ nav li {
 
   .move {
     margin-left: 25%;
+    padding-bottom: 13%;
+    width: 67%;
+  }
+
+   {
+    margin-left: 25%;
     margin-bottom: 15%;
   }
 
@@ -1029,7 +1051,7 @@ nav li {
   }
 
   .video {
-    background-image: url("../images/video_pic.jpg");
+    background-image: url("../images/.jpg");
     background-position: 50% 50%;
     width:100%;
     background-repeat: no-repeat;
@@ -1298,15 +1320,16 @@ nav li {
   }
 
   .move {
-    margin-left: 3%;
+    margin-left: 4%;
     padding-bottom: 13%;
+    width: 47%;
   }
 
   .nazir {
     width: 13rem;
     border-radius: 50%;
     float: left;
-    margin-left: 20%;
+    margin-left: 23%;
     margin-top: 5rem;
     padding-right: 1rem;
   }
@@ -1317,7 +1340,6 @@ nav li {
 
 
   .video {
-    background-image: url("../images/video_pic.jpg");
     background-position: 50% 50%;
     width:100%;
     background-repeat: no-repeat;
@@ -1559,7 +1581,7 @@ nav li {
   }
 
   .video {
-    background-image: url("../images/video_pic.jpg");
+    background-image: url("../images/.jpg");
     background-position: 50% 50%;
     width:100%;
     background-repeat: no-repeat;
@@ -1637,5 +1659,7 @@ nav li {
   .shakeelnazir {
     font-size: 4rem;
     margin-top: 5rem;
+    margin-left: -8%;
+    text-align: left;
     }
 }
