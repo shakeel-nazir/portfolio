@@ -14,6 +14,40 @@ html {
   background-color: white;
 }
 
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type:none;
+}
+
+.skip-links  a {
+  position: absolute;
+  top:-3em;
+}
+
+.top a {
+  padding: 0;
+  margin: 0;
+}
+
+.top a:hover {
+  color: white;
+}
+
+.skip-links  li {
+  float: none;
+  color: white;
+  padding: 0;
+  margin: 0;
+  float: left;
+  padding-left: 1rem;
+}
+
+.skip-links a:focus {
+  top: 0;
+  z-index: 1000;
+}
+
 .joeyfont {
   width: 120%;
   padding-left: 0%;
@@ -89,6 +123,7 @@ li {
   color: #5a5a5a;
   font-size: 10px;
   font-weight: 500;
+  margin: 0;
 }
 
 .smallheader {
@@ -318,6 +353,7 @@ li {
   color: #5a5a5a;
   font-size: 10px;
   font-weight: 500;
+  margin: 0;
 }
 
 video {
@@ -550,8 +586,7 @@ a {
 }
 
 li {
-  list-style: none;
-  z-index: 1000;
+
 }
 
 ul {
@@ -647,7 +682,7 @@ form {
 }
 
 .list{
-  padding-left: 42%;
+  padding-left: 40%;
   padding-top: 1%;
 }
 
@@ -893,6 +928,7 @@ nav li {
     color: #5a5a5a;
     font-size: 10px;
     font-weight: 500;
+    margin: 0;
   }
 
   .isometric {
@@ -1088,6 +1124,7 @@ nav li {
     color: #5a5a5a;
     font-size: 10px;
     font-weight: 500;
+    margin: none;
   }
 
   .video-foreground, .video-background iframe {
@@ -1376,6 +1413,7 @@ nav li {
     color: #5a5a5a;
     font-size: 17px;
     font-weight: 500;
+    margin: 0;
   }
 
   .moodboard {
