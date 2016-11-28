@@ -4,6 +4,27 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+@font-face {
+  font-family: 'raleway';
+  src: url('../fonts/raleway-bold-webfont.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway';
+  src: url('../fonts/raleway-medium-webfont.woff') format('woff');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'raleway';
+  src: url('../fonts/raleway-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 html {
   box-sizing: border-box;
   -moz-text-size-adjust:100%;
@@ -12,7 +33,13 @@ html {
   text-size-adjust:100%;
   margin: 0;
   background-color: white;
+  font-family: sans-serif;
 }
+
+.fonts-loaded{
+  font-family: "raleway", sans-serif;
+}
+
 
 .skip-links {
   margin: 0;
