@@ -36,6 +36,11 @@ html {
   font-family: sans-serif;
 }
 
+.marginhead {
+  display: inline-block;
+  margin-bottom: 0%;
+}
+
 .fonts-loaded{
   font-family: "raleway", sans-serif;
 }
@@ -59,6 +64,17 @@ html {
 
 .top a:hover {
   color: white;
+}
+
+.notfound {
+  font-size: 6rem;
+  font-weight: bolder;
+  margin-left: 2rem;
+}
+
+.url {
+  margin-bottom: 50%;
+    margin-left: 2rem;
 }
 
 .skip-links  li {
@@ -909,6 +925,11 @@ nav li {
     left: -1000px;
   }
 
+  .marginhead {
+  display: inline-block;
+  margin-bottom: 0%;
+}
+
   .nazir {
     width: 13rem;
     border-radius: 50%;
@@ -1092,6 +1113,11 @@ nav li {
   .bottom {
     width: 30%;
   }
+
+  .marginhead {
+  display: inline-block;
+  margin-bottom: 11%;
+}
 
   .move {
     margin-left: 25%;
@@ -1377,6 +1403,11 @@ nav li {
     margin-bottom: 1rem;
     font-size: 2rem;
   }
+
+  .marginhead {
+  display: inline-block;
+  margin-bottom: 20%;
+}
 
   .move {
     margin-left: 4%;
