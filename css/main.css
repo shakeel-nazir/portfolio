@@ -741,6 +741,7 @@ form {
   margin-bottom: -8px;
   padding-left: 0;
   position: relative;
+  z-index: 1000;
 }
 
 .space {
