@@ -441,6 +441,7 @@ input{
   padding-left: .5rem;
   margin: 0;
   filter: grayscale(100%);
+  padding-top: 1rem;
 }
 
 .soclogo:hover{
