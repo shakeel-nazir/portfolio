@@ -12,9 +12,6 @@
         <link rel="icon" type="image/ico" href="{{site.baseurl}}/favicon.ico"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,700,900" rel="stylesheet">
-        <link href="fonts/raleway-bold-webfont.woff" rel="preload">
-        <link href="raleway-medium-webfont.woff" rel="preload">
-        <link href="fonts/raleway-regular-webfont.woff" rel="preload">
         <!--<link href="css/sub-set-fonts/css" rel="stylesheet">-->
       </head>
 
@@ -33,8 +30,8 @@
           </a>
 
           <ul class="clearfix menu" style="list-style-type:none">
-              <li><a itemtype="localurl" itemtype="url" href="{{site.baseurl}}/index.html" class="lihover smalllink">Home</a></li>
-              <li><a itemtype="localurl" href="{{site.baseurl}}/#protfolio" class="lihover smalllink">Protfolio</a></li>
+              <li><a itemtype="localurl" itemtype="url" href="{{site.baseurl}}/" class="lihover smalllink">Home</a></li>
+              <li><a itemtype="localurl" href="{{site.baseurl}}/#content" class="lihover smalllink">Portfolio</a></li>
               <li><a itemtype="localurl" href="#contact" class="lihover smalllink">Contact</a></li>
               <li><a itemtype="localurl" href="{{site.baseurl}}/about/" class="lihover smalllink">About</a></li>
           </ul>
@@ -48,7 +45,7 @@
               <div class="list">
                   <ul class="close">
                       <li><a itemtype="url" href="{{site.baseurl}}/index.html" class="lihover">Home</a></li>
-                      <li><a itemtype="url" href="{{site.baseurl}}/#protfolio" class="lihover">Protfolio</a></li>
+                      <li><a itemtype="url" href="{{site.baseurl}}/#content" class="lihover">Portfolio</a></li>
                       <li><a itemtype="url" href="#contact" class="lihover">Contact</a></li>
                       <li><a itemtype="url" href="{{site.baseurl}}/about/" class="lihover">About</a></li>
                   </ul>
@@ -108,35 +105,6 @@
 
         </script>
 
-        <script>
-          var ralRegular, ralBold, ralMed;
-
-          if(!sessionStorage.fontsLoaded) {
-          ralRegular = new FontFaveObserver('raleway', {
-            weight: 'normal'
-          });
-
-          ralRegular = new FontFaveObserver('raleway', {
-            weight: 'bold'
-          });
-
-          ralRegular = new FontFaveObserver('raleway', {
-            weight: 'medium'
-          });
-
-          Promis.all([
-            ralRegular.load(),
-            ralBold.load(),
-            ralMed.load(),
-          ]).then(function() {
-            document.documentElement.className +=' fonts-loaded'
-            sessionStorage.fontsLoaded =true;
-          });
-        } else {
-          document.documentElement.className +=' fonts-loaded'
-        }
-
-        </script>
 
 
 
