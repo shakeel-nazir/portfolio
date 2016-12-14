@@ -132,6 +132,16 @@ html {
   font-weight: 500;
 }
 
+.mobile404 {
+  margin-top: -49rem;
+  width: 150rem;
+  margin-left: -34rem;
+}
+
+.contan404 {
+    margin-bottom: 158%;
+}
+
 .shakeelnazir {
   color: black;
   font-weight: 700;
@@ -177,6 +187,8 @@ li {
   height: 280px;
   pointer-events: none;
 }
+
+
 
 .video-foreground, .video-background iframe {
   position: relative;
@@ -926,6 +938,17 @@ nav li {
     left: -1000px;
   }
 
+  .mobile404 {
+      margin-top: -49rem;
+      width: 150rem;
+      margin-left: -34rem;
+  }
+
+  .contan404 {
+    margin-bottom: 118%;
+  }
+
+
   .marginhead {
   display: inline-block;
   margin-bottom: 0%;
@@ -1113,6 +1136,16 @@ nav li {
   .bottom {
     width: 30%;
   }
+
+  .mobile404 {
+    margin-top: -49rem;
+    width: 150rem;
+    margin-left: 11rem;
+}
+
+  .contan404 {
+    margin-bottom: 38%;
+}
 
   .marginhead {
   display: inline-block;
@@ -1341,6 +1374,10 @@ nav li {
     overflow: hidden;
   }
 
+  .contan404 {
+    margin-bottom: 88%;
+  }
+
   li {
     display: block;
     color: white;
@@ -1403,6 +1440,12 @@ nav li {
     font-size: 2rem;
   }
 
+  .mobile404 {
+    margin-top: -49rem;
+    width: 150rem;
+    margin-left: 11rem;
+}
+
   .marginhead {
   display: inline-block;
   margin-bottom: 20%;
@@ -1413,6 +1456,10 @@ nav li {
     padding-bottom: 13%;
     width: 47%;
   }
+
+  .contan404 {
+    margin-bottom: 38%;
+}
 
   .nazir {
     width: 13rem;
