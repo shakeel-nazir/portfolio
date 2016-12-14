@@ -157,7 +157,7 @@ html {
   border-radius: 50%;
   float: center;
   margin-top: .5rem;
-  margin-left: 25%;
+  margin-left: 21%;
 }
 
 .smalllink {
@@ -640,10 +640,6 @@ a {
   font-weight: 700;
 }
 
-li {
-
-}
-
 ul {
   padding-left: 1rem;
 }
@@ -950,8 +946,8 @@ nav li {
 
 
   .marginhead {
-  display: inline-block;
-  margin-bottom: 0%;
+    display: inline-block;
+    margin-bottom: 0%;
 }
 
   .nazir {
@@ -1148,8 +1144,8 @@ nav li {
 }
 
   .marginhead {
-  display: inline-block;
-  margin-bottom: 11%;
+    display: inline-block;
+    margin-bottom: 11%;
 }
 
   .move {
@@ -1447,8 +1443,8 @@ nav li {
 }
 
   .marginhead {
-  display: inline-block;
-  margin-bottom: 20%;
+    display: inline-block;
+    margin-bottom: 20%;
 }
 
   .move {
