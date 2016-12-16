@@ -74,7 +74,7 @@ html {
 
 .url {
   margin-bottom: 50%;
-    margin-left: 2rem;
+  margin-left: 2rem;
 }
 
 .skip-links  li {
@@ -106,7 +106,6 @@ html {
   padding-left: 0%;
   padding-right: 20%;
 }
-
 
 .block {
   display: inline-block;
@@ -145,7 +144,6 @@ html {
 .mobile404 {
   margin-top: -49rem;
   width: 150rem;
-
 }
 
 .shakeelnazir {
@@ -175,7 +173,7 @@ li.nonelist {
 }
 
 li {
-    display: none;
+  display: none;
 }
 
 .white2 {
@@ -193,8 +191,6 @@ li {
   height: 280px;
   pointer-events: none;
 }
-
-
 
 .video-foreground, .video-background iframe {
   position: relative;
@@ -237,8 +233,8 @@ li {
 }
 
 #vidtop-content {
-	top: 0;
-	color: #fff;
+  top: 0;
+  color: #fff;
 }
 
 .infovideo {
@@ -646,10 +642,6 @@ a {
   font-weight: 700;
 }
 
-li {
-
-}
-
 ul {
   padding-left: 1rem;
 }
@@ -945,15 +937,15 @@ nav li {
   }
 
   .mobile404 {
-      margin-top: -49rem;
-      width: 150rem;
-      margin-left: -34rem;
+    margin-top: -49rem;
+    width: 150rem;
+    margin-left: -34rem;
   }
 
   .marginhead {
-  display: inline-block;
-  margin-bottom: 0%;
-}
+    display: inline-block;
+    margin-bottom: 0%;
+  }
 
   .nazir {
     width: 13rem;
@@ -1030,18 +1022,18 @@ nav li {
     transform: translateX(-50%) translateY(0%);
   }
 
-  .marginbottom{
+  .marginbottom {
     margin-top: -1%;
     margin-bottom: 5%;
     display: inline-block;
   }
 
-  .my-container img{
+  .my-container img {
     position: absolute;
     left: -1000px;
   }
 
-  p{
+  p {
     color: #3e3d3d;
     margin-bottom: 1rem;
     font-size: 2rem;
@@ -1141,12 +1133,12 @@ nav li {
     margin-top: -49rem;
     width: 150rem;
     margin-left: 11rem;
-}
+  }
 
   .marginhead {
-  display: inline-block;
-  margin-bottom: 11%;
-}
+    display: inline-block;
+    margin-bottom: 11%;
+  }
 
   .move {
     margin-left: 25%;
@@ -1435,12 +1427,12 @@ nav li {
     margin-top: -49rem;
     width: 150rem;
     margin-left: 11rem;
-}
+  }
 
   .marginhead {
     display: inline-block;
     margin-bottom: 40%;
-}
+  }
 
   .move {
     margin-left: 4%;
