@@ -32,7 +32,7 @@ html {
   -webkit-text-size-adjust:100%;
   text-size-adjust:100%;
   margin: 0;
-  background-color: white;
+  background-color: black;
   font-family: sans-serif;
 }
 
@@ -91,6 +91,16 @@ html {
   z-index: 1000;
 }
 
+.middel {
+  height: 50%;
+  z-index: 2;
+  width: 100%;
+  position: inherit;
+  text-align: center;
+  padding-bottom: 100%;
+  background-color: black;
+}
+
 .joeyfont {
   width: 120%;
   padding-left: 0%;
@@ -135,11 +145,7 @@ html {
 .mobile404 {
   margin-top: -49rem;
   width: 150rem;
-  margin-left: -34rem;
-}
 
-.contan404 {
-    margin-bottom: 158%;
 }
 
 .shakeelnazir {
@@ -157,7 +163,7 @@ html {
   border-radius: 50%;
   float: center;
   margin-top: .5rem;
-  margin-left: 21%;
+  margin-left: 25%;
 }
 
 .smalllink {
@@ -220,6 +226,7 @@ li {
   position: fixed;
   top: 0; right: 0; bottom: 0; left: 0;
 }
+
 .video-foreground, .video-background iframe {
   position: relative;
   top: -140px;
@@ -317,7 +324,7 @@ li {
   font-size:90%;
   margin-top: 3rem;
   text-align: left;
-  margin-left: .5em;
+  margin-left: 2.5em;
   margin-right: .5em;
   font-weight: 500;
 }
@@ -502,12 +509,11 @@ input{
 }
 
 .video {
-  background-position: 50% 50%;
-  width:100%;
+  width: 139%;
   background-repeat: no-repeat;
-  background-color: #ffcaca;
-  filter: grayscale(100%);
+  filter: none;
   margin-bottom: -11px;
+  margin-left: -3rem;
 }
 
 .video:hover {
@@ -635,9 +641,13 @@ body {
 a {
   text-decoration: none;
   color: #646464;
-  font-size: 104%;
+  font-size: 13px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
+}
+
+li {
+
 }
 
 ul {
@@ -940,14 +950,9 @@ nav li {
       margin-left: -34rem;
   }
 
-  .contan404 {
-    margin-bottom: 118%;
-  }
-
-
   .marginhead {
-    display: inline-block;
-    margin-bottom: 0%;
+  display: inline-block;
+  margin-bottom: 0%;
 }
 
   .nazir {
@@ -966,12 +971,11 @@ nav li {
   }
 
   .video {
-    background-position: 50% 50%;
-    width:100%;
+    width: 139%;
     background-repeat: no-repeat;
-    background-color: #ffcaca;
-    filter: grayscale(100%);
+    filter: none;
     margin-bottom: -11px;
+    margin-left: -3rem;
   }
 
   .video:hover {
@@ -1139,13 +1143,9 @@ nav li {
     margin-left: 11rem;
 }
 
-  .contan404 {
-    margin-bottom: 38%;
-}
-
   .marginhead {
-    display: inline-block;
-    margin-bottom: 11%;
+  display: inline-block;
+  margin-bottom: 11%;
 }
 
   .move {
@@ -1163,12 +1163,11 @@ nav li {
   }
 
   .video {
-    background-position: 50% 50%;
-    width:100%;
+    width: 139%;
     background-repeat: no-repeat;
-    background-color: #ffcaca;
     filter: none;
     margin-bottom: -11px;
+    margin-left: -3rem;
   }
 
   .video:hover {
@@ -1370,10 +1369,6 @@ nav li {
     overflow: hidden;
   }
 
-  .contan404 {
-    margin-bottom: 88%;
-  }
-
   li {
     display: block;
     color: white;
@@ -1444,7 +1439,7 @@ nav li {
 
   .marginhead {
     display: inline-block;
-    margin-bottom: 20%;
+    margin-bottom: 40%;
 }
 
   .move {
@@ -1452,10 +1447,6 @@ nav li {
     padding-bottom: 13%;
     width: 47%;
   }
-
-  .contan404 {
-    margin-bottom: 38%;
-}
 
   .nazir {
     width: 13rem;
@@ -1471,12 +1462,11 @@ nav li {
   }
 
   .video {
-    background-position: 50% 50%;
-    width:100%;
+    width: 139%;
     background-repeat: no-repeat;
-    background-color: #ffcaca;
-    filter: grayscale(100%);
+    filter: none;
     margin-bottom: -11px;
+    margin-left: -3rem;
   }
 
   .video:hover {
@@ -1502,9 +1492,7 @@ nav li {
 
   .smallheader {
     position: relative;
-    top: -31%;
-    left: -690px;
-    width: 100%;
+    left: -1289px;
     height: 100%;
     pointer-events: none;
   }
@@ -1714,12 +1702,11 @@ nav li {
   }
 
   .video {
-    background-position: 50% 50%;
-    width:100%;
+    width: 139%;
     background-repeat: no-repeat;
-    background-color: #ffcaca;
     filter: none;
     margin-bottom: -11px;
+    margin-left: -3rem;
   }
 
   .video:hover {
