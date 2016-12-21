@@ -36,6 +36,12 @@ html {
   font-family: sans-serif;
 }
 
+.line {
+  border-top: 1rem;
+  border-width: 1rem;
+  border-width: 1rem;
+}
+
 .marginhead {
   display: inline-block;
   margin-bottom: 0%;
